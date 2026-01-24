@@ -9,6 +9,7 @@ import LeadMagnet from './components/LeadMagnet';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ThankYou from './components/ThankYou';
+import Legal from './components/Legal';
 
 function Home() {
   return (
@@ -26,12 +27,23 @@ function Home() {
   );
 }
 
+function LegalPage() {
+  return (
+    <div className="min-h-screen bg-slate-900">
+      <Navbar />
+      <Legal />
+      <Footer />
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/legal" element={<LegalPage />} />
       </Routes>
     </Router>
   );

@@ -92,22 +92,22 @@ export default function Footer() {
             <h3 className="text-white font-display font-bold mb-6">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-400 hover:text-cyan-500 transition-colors">
+                <a href="/legal#privacy" className="text-gray-400 hover:text-cyan-500 transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-cyan-500 transition-colors">
+                <a href="/legal#tos" className="text-gray-400 hover:text-cyan-500 transition-colors">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-cyan-500 transition-colors">
+                <a href="/legal#cookies" className="text-gray-400 hover:text-cyan-500 transition-colors">
                   Cookie Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-cyan-500 transition-colors">
+                <a href="/legal#compliance" className="text-gray-400 hover:text-cyan-500 transition-colors">
                   Compliance
                 </a>
               </li>
